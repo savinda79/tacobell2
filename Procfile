@@ -1,1 +1,2 @@
-web gunicorn tacobell.wsgi:apllication --log-file -
+web: gunicorn tacobell.wsgi:apllication --log-file -
+

@@ -1,1 +1,1 @@
-web:gunicorn tacobell.wsgi
+web: gunicorn tacobell.wsgi.application
